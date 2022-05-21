@@ -6,6 +6,7 @@ Created on Sat May 21 14:01:20 2022
 
 @author: Edison Tamayo
 """
+
 print("Empezando a trabajar con Python")
 print("Realizado por: \"Edison Tamayo\"")
 print("Consultando los tipos de valores:")
