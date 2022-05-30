@@ -9,14 +9,13 @@ Created on Mon May 23 11:34:44 2022
 
 """Desarrollar un programa que permita validar la contraseña introducida por un usuario con las 
 siguientes comprobaciones:
- Debe contener al menos una letra minúscula entre las letras: a,b,c,d,e,f,g,h,i,j.
- Debe contener al menos una letra mayúscula entre las letras: K,L,M,N,O,P,Q,R,S,T.
- Debe contener al menos un número entre 0 y 9.
- Debe contener un símbolo especial entre: $,%,*,@
- Tamaño mínimo de 5 caracteres y máximo de 15."""
-print("Indicaciones para una contraseña válida:\nDebe contener al menos una letra minúscula entre las letras: a,b,c,d,e,f,g,h,i,j.\n- Debe contener al menos una letra mayúscula entre las letras: K,L,M,N,O,P,Q,R,S,T.\n- Debe contener al menos un número entre 0 y 9.\n- Debe contener un símbolo especial entre: $,%,*,@\n- Tamaño mínimo de 5 caracteres y máximo de 15.\n")
-# valor=input("Ingrese una contraseña: ")
-clave='uane5Lzsdfdf'
+- Debe contener al menos una letra minúscula entre las letras: a,b,c,d,e,f,g,h,i,j.
+- Debe contener al menos una letra mayúscula entre las letras: K,L,M,N,O,P,Q,R,S,T.
+- Debe contener al menos un número entre 0 y 9.
+- Debe contener un símbolo especial entre: $,%,*,@
+- Tamaño mínimo de 5 caracteres y máximo de 15."""
+print("Indicaciones para una contraseña válida:\nDebe contener al menos una letra minúscula entre las letras: a,b,c,d,e,f,g,h,i,j.\n- Debe contener al menos una letra mayúscula entre las letras: K,L,M,N,O,P,Q,R,S,T.\n- Debe contener al menos un número entre 0 y 9.\n- Debe contener un símbolo especial entre: $,%,*,@\n- Tamaño mínimo de 5 caracteres y máximo de 15.\n") 
+clave=input("Ingrese una contraseña: ")
 minValidas=['a','b','c','d','e','f','g','h','i','j']
 banderaMinus=False
 mayValida=["K","L","M","N","O","P","Q","R","S","T"]

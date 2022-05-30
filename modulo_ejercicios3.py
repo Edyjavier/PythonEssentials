@@ -85,17 +85,19 @@ def menu2():
             print("Error de excepciones")
     return
 
-continuar=True
-while continuar:
-    opcion=input(menu)
-    try:
-        opcion=int(opcion)
-        if opcion==1:
-            menu2()
-        elif opcion==2:
-            continuar=False
-        else:
-            print("Error, opciones válidas:1 y 2")
-    except ValueError:
-        print("Error de excepciones")  
+def principal():
+    continuar=True
+    while continuar:
+        opcion=input(menu)
+        try:
+            opcion=int(opcion)
+            if opcion==1:
+                menu2()
+            elif opcion==2:
+                continuar=False
+            else:
+                print("Error, opciones válidas:1 y 2")
+        except ValueError:
+            print("Error de excepciones")
+    return
 
